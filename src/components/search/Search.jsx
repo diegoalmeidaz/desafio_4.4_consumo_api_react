@@ -6,13 +6,13 @@ const Search = ({ setSearch }) => {
   };
 
   return (
-    <div className="p-10 mb-2">
-        <h1>Busca un Personaje</h1>
+    <div className="p-10 mb-2 mt-5 mb-5">
+        <h1>Filtra por Personaje, Especie o Locacion!</h1>
     <Form.Control
       size="text"
       className="mt-4"
       
-      placeholder="Ingresa Colaborador a Buscar"
+      placeholder="Busca Aquí"
       onChange={(e) => searchValue(e.target.value)}
     
     />
