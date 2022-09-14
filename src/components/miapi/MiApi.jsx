@@ -38,7 +38,7 @@ function MiApi() {
   }, []);
 
   return (
-    <div className="Container">
+    <div className="Container p-5">
       <Search setSearch={setSearch} />
 
       <Pagination prev={info.prev} next={info.next} onPrevious={onPrevious} onNext={onNext}/>

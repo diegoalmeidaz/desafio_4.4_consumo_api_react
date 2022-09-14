@@ -8,14 +8,14 @@ const Search = ({ setSearch }) => {
   };
 
   return (
-    <div className="p-10 mb-2 mt-5 mb-5 justify-content-center">
-        <h1 className="justify-content-center">Filtra por Personaje, Especie, Ubicación o si Vive o No!</h1>
+    <div className="p-10 mt-5 mb-5 justify-center text-center">
+        <h1 className=" text-lg ">Filtra por Personaje, Especie, Ubicación o si Vive o No!</h1>
 
     
 
     <Form.Control
       size="text"
-      className="mt-4"
+      className="mt-4 p-6"
       
       placeholder="Busca Aquí"
       onChange={(e) => searchValue(e.target.value)}

@@ -1,13 +1,15 @@
 
 import Header from './components/header/Header'
 import MiApi from './components/miapi/MiApi'
+import Footer from './components/footer/Footer'
 
 
 function App() {
   return (
     <>
-    <Header brand="Rick&Morty Land"/>
+    <Header/>
     <MiApi/>
+    <Footer/>
     </>
   );
 }
