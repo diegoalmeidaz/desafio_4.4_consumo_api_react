@@ -7,7 +7,7 @@ const Search = ({ setSearch }) => {
 
   return (
     <div className="p-10 mb-2 mt-5 mb-5">
-        <h1>Filtra por Personaje, Especie o Locacion!</h1>
+        <h1>Filtra por Personaje, Especie, Ubicación o si Vive o No!</h1>
     <Form.Control
       size="text"
       className="mt-4"
