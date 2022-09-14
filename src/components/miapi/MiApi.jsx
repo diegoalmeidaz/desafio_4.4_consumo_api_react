@@ -26,11 +26,11 @@ function MiApi() {
   };
 
   const onPrevious = () => {
-    getCharacters(info.prev)
+    getCharacters(info.prev);
   };
 
   const onNext = () => {
-    getCharacters(info.next)
+    getCharacters(info.next);
   };
 
   useEffect(() => {
@@ -41,11 +41,21 @@ function MiApi() {
     <div className="Container p-5">
       <Search setSearch={setSearch} />
 
-      <Pagination prev={info.prev} next={info.next} onPrevious={onPrevious} onNext={onNext}/>
+      <Pagination
+        prev={info.prev}
+        next={info.next}
+        onPrevious={onPrevious}
+        onNext={onNext}
+      />
 
       <Card characters={characters} search={search} />
 
-      <Pagination prev={info.prev} next={info.next} onPrevious={onPrevious} onNext={onNext}/>
+      <Pagination
+        prev={info.prev}
+        next={info.next}
+        onPrevious={onPrevious}
+        onNext={onNext}
+      />
     </div>
   );
 }

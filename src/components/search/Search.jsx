@@ -1,7 +1,5 @@
 import Form from "react-bootstrap/Form";
 
-
-
 const Search = ({ setSearch }) => {
   const searchValue = (search) => {
     setSearch(search);
@@ -9,18 +7,16 @@ const Search = ({ setSearch }) => {
 
   return (
     <div className="p-10 mt-5 mb-5 justify-center text-center">
-        <h1 className=" text-lg ">Filtra por Personaje, Especie, Ubicación o si Vive o No!</h1>
+      <h1 className="">
+        Filtra por Personaje, Especie, Ubicación o si Vive o No!
+      </h1>
 
-    
-
-    <Form.Control
-      size="text"
-      className="mt-4 p-6"
-      
-      placeholder="Busca Aquí"
-      onChange={(e) => searchValue(e.target.value)}
-    
-    />
+      <Form.Control
+        size="text"
+        className="mt-4 p-6"
+        placeholder="Busca Aquí"
+        onChange={(e) => searchValue(e.target.value)}
+      />
     </div>
   );
 };
