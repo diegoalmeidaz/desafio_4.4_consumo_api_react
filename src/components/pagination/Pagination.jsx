@@ -11,7 +11,7 @@ const Pagination = ({ prev, next, onPrevious, onNext }) => {
 
   return (
     <nav>
-      <ul className="pagination justify-content-center">
+      <ul className="pagination justify-content-center mb-5 mt-5">
         {prev ? (
           <li className="page-item">
             <button className="page-link" onClick={previousPage}>
